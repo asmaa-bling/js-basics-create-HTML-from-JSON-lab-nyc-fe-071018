@@ -23,11 +23,11 @@ function updateHTMLContent(movieName) {
   let description = document.getElementById("description");
   
   title.innerHTML = currentMovie.title;
-  director.innerHTML = movies[currentMovie].director;
-  genre.innerHTML = movies[currentMovie].genre;
-  filmRating.innerHTML = movies[currentMovie].filmRating;
-  poster.setAttribute('src', movies[currentMovie].poster);
-  description.innerHTML = movies[currentMovie].description;
-  audienceScore.innerHTML = movies[currentMovie].audienceScore;
+  director.innerHTML = currentMovie.director;
+  genre.innerHTML = currentMovie.genre;
+  filmRating.innerHTML = currentMovie.filmRating;
+  poster.setAttribute('src', currentMovie.poster);
+  description.innerHTML = currentMovie.description;
+  audienceScore.innerHTML = currentMovie.audienceScore;
 }
 
