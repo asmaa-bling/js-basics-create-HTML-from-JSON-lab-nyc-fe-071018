@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
   const terminatorButton = document.getElementById('Terminator 2');
   
   titanicButton.addEventListener('click', (event) => {
-    updateHTMLContent();
+    updateHTMLContent('Titanic');
   });
   
   terminatorButton.addEventListener('click', (event) => {
-    
+    uupdateHTMLContent('Terminator 2');
   });
 });
 
