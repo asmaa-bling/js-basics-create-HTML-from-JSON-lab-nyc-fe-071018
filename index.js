@@ -22,7 +22,7 @@ function updateHTMLContent(movieName) {
   let audienceScore = document.getElementById("audienceScore");
   let description = document.getElementById("description");
   
-  title.innerHTML = movies[currentMovie].title;
+  title.innerHTML = currentMovie.title;
   director.innerHTML = movies[currentMovie].director;
   genre.innerHTML = movies[currentMovie].genre;
   filmRating.innerHTML = movies[currentMovie].filmRating;
