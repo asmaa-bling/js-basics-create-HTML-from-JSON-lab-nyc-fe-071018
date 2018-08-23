@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function updateHTMLContent() {
-  console.log(title);
+  title.innerText = "hi";
 }
 
 let title = document.getElementById("title");
