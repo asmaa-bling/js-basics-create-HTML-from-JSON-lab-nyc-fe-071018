@@ -13,10 +13,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function updateHTMLContent() {
-  title.innerText = "hi";
+  let title = document.getElementById("title");
+  let director = document.getElementById("director");
+  let genre = document.getElementById("genre");
+  let filmRating = document.getElementById("filmRating");
+  
+  title.innerHTML = movies["Titanic"].title;
 }
 
-let title = document.getElementById("title");
-let director = document.getElementById("director");
-let genre = document.getElementById("genre");
-let filmRating = document.getElementById("filmRating");
