@@ -4,13 +4,17 @@ document.addEventListener("DOMContentLoaded", (e) => {
   const terminatorButton = document.getElementById('Terminator 2');
   
   titanicButton.addEventListener('click', (event) => {
-    
+    updateHTMLContent();
   });
   
   terminatorButton.addEventListener('click', (event) => {
     
   });
 });
+
+function updateHTMLContent() {
+  console.log(title);
+}
 
 let title = document.getElementById("title");
 let director = document.getElementById("director");
