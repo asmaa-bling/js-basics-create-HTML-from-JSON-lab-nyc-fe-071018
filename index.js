@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   });
   
   terminatorButton.addEventListener('click', (event) => {
-    uupdateHTMLContent('Terminator 2');
+    updateHTMLContent('Terminator 2');
   });
 });
 
