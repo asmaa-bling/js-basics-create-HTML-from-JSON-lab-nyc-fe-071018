@@ -1,7 +1,20 @@
+  const titanicButton = document.getElementById('Titanic');
+  const terminatorButton = document.getElementById('Terminator 2');
+  updateHTMLContent('Titanic');
+  
+  titanicButton.addEventListener('click', (event) => {
+    updateHTMLContent('Titanic');
+  });
+  
+  terminatorButton.addEventListener('click', (event) => {
+    updateHTMLContent('Terminator 2');
+  });
+  
 document.addEventListener("DOMContentLoaded", (e) => {
   // invoking a function here will make sure it happens on page load
   const titanicButton = document.getElementById('Titanic');
   const terminatorButton = document.getElementById('Terminator 2');
+  updateHTMLContent('Titanic');
   
   titanicButton.addEventListener('click', (event) => {
     updateHTMLContent('Titanic');
