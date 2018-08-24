@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
   });
 });
 
+
+
 function updateHTMLContent(movieName) {
   let currentMovie = movies[movieName];
   let title = document.getElementById("title");
@@ -55,5 +57,5 @@ function updateHTMLContent(movieName) {
   reviews.innerHTML = reviewInnerHTML;
   
 }
-updateHTMLContent('Titanic');
 
+updateHTMLContent('Titanic');
