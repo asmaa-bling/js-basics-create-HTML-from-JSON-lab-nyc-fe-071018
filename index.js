@@ -21,6 +21,7 @@ function updateHTMLContent(movieName) {
   let poster = document.getElementById("poster");
   let audienceScore = document.getElementById("audienceScore");
   let description = document.getElementById("description");
+  let reviews = document.getElementById("reviews");
   
   title.innerHTML = currentMovie.title;
   director.innerHTML = currentMovie.director;
@@ -31,6 +32,7 @@ function updateHTMLContent(movieName) {
   audienceScore.innerHTML = currentMovie.audienceScore;
   
   let castInnerHTML = "<ul>";
+  let reviewInnerHTML = "<div>";
   
   for (castmember of currentMovie.cast){
     let role = castmember.role;
@@ -41,5 +43,15 @@ function updateHTMLContent(movieName) {
   
   castInnerHTML += "</ul>";
   cast.innerHTML = castInnerHTML;
+  
+  for (review of currentMovie.reviews){
+    let userName = review.username;
+    let content = review.content;
+    
+    reviewInnerHTML += "<p>" + userName + ": " + content + "</p>"
+  }
+  
+  reviewInnerHTML += "</div>";
+  
 }
 
