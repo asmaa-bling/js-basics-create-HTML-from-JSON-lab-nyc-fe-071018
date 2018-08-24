@@ -52,6 +52,7 @@ function updateHTMLContent(movieName) {
   }
   
   reviewInnerHTML += "</div>";
+  reviews.innerHTML = reviewInnerHTML;
   
 }
 
