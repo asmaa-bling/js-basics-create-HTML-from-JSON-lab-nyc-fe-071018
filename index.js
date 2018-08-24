@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 
-
 function updateHTMLContent(movieName) {
   let currentMovie = movies[movieName];
   let title = document.getElementById("title");
