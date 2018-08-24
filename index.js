@@ -1,4 +1,3 @@
-updateHTMLContent('Titanic');
 document.addEventListener("DOMContentLoaded", (e) => {
   // invoking a function here will make sure it happens on page load
   const titanicButton = document.getElementById('Titanic');
@@ -56,4 +55,5 @@ function updateHTMLContent(movieName) {
   reviews.innerHTML = reviewInnerHTML;
   
 }
+updateHTMLContent('Titanic');
 
