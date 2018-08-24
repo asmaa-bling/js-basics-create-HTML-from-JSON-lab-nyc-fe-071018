@@ -70,4 +70,3 @@ function updateHTMLContent(movieName) {
   
 }
 
-updateHTMLContent('Titanic');
