@@ -9,7 +9,7 @@ describe("index.html", function() {
     });
 
 
-    it("displays the correct Titanic info from JSON", () => {
+    it.only("displays the correct Titanic info from JSON", () => {
 
       const titanicCast = document.getElementById("cast").innerHTML
       const titanicReviews = document.getElementById("reviews").innerHTML
