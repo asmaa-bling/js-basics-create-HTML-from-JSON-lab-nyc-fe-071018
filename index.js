@@ -46,7 +46,7 @@ function updateHTMLContent(movieName) {
   audienceScore.innerHTML = currentMovie.audienceScore;
   
   let castInnerHTML = "";
-  let reviewInnerHTML = "<div>";
+  let reviewInnerHTML = "";
   
   for (castmember of currentMovie.cast){
     let role = castmember.role;
@@ -65,7 +65,7 @@ function updateHTMLContent(movieName) {
     reviewInnerHTML += "<p>" + userName + ": " + content + "</p>"
   }
   
-  reviewInnerHTML += "</div>";
+  reviewInnerHTML += "";
   reviews.innerHTML = reviewInnerHTML;
   
 }
