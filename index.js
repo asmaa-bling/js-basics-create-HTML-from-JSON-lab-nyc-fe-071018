@@ -40,5 +40,6 @@ function updateHTMLContent(movieName) {
   }
   
   castInnerHTML += "</ul>";
+  cast.innerHTML = castInnerHTML;
 }
 
