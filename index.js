@@ -6,9 +6,9 @@
     updateHTMLContent('Titanic');
   });
   
-  terminatorButton.addEventListener('click', (event) => {
-    updateHTMLContent('Terminator 2');
-  });
+  // terminatorButton.addEventListener('click', (event) => {
+  //   updateHTMLContent('Terminator 2');
+  // });
   
 document.addEventListener("DOMContentLoaded", (e) => {
   // invoking a function here will make sure it happens on page load
